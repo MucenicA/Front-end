@@ -1,0 +1,226 @@
+
+@media screen and (min-width: 601px) {
+    .first-txt, .second-txt {
+        position: absolute;
+        top: 3em;
+        left: 10em;
+       
+
+    }
+  }
+
+
+.paragraph
+{
+    text-align:center;
+    font-family: cursive;
+}
+
+
+.julia
+{
+    font-family: cursive;
+    float:right;
+    padding:5px;
+    padding-right:20%;
+    color:darkorchid;
+}
+
+div iframe
+{
+    margin-bottom: 30px;
+}
+
+
+
+.ceva{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    /* box-shadow:5px 5px 5px 5px; */
+    border:1px solid black;
+  
+
+}
+
+.gfg 
+{
+    margin: 10%;
+    position: relative;
+    color:white;
+    
+}
+
+.first-txt 
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: cursive;
+}
+
+.second-txt 
+{
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+    font-family: cursive;
+}
+
+.meal
+{
+
+    position:absolute;
+    left: 21%;
+    color:firebrick;
+}
+
+.column 
+{
+    display:inline-block;
+    width:10%;
+    height:15%;
+    margin-left:10%;
+    margin-top:5%;
+    
+}
+
+.column img
+{
+    display:inline;
+    min-width: 150px;
+    min-height:150px;
+}
+
+h5
+{
+    
+    margin-left:40%;
+    text-align:center;
+
+}
+
+.description
+{
+    font-family: cursive;
+    background-color:white;
+    box-shadow:5px 5px 5px 5px;
+   
+}
+
+.box
+{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    display: block;
+    box-shadow:5px 5px 5px 5px;
+    margin-bottom:100px;
+   
+}
+
+
+.row 
+{
+ 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 
+{
+    -ms-flex: 25%; 
+    flex: 25%;
+}
+
+.col-50
+{
+    -ms-flex: 50%; 
+    flex: 50%;
+}
+
+.col-75 
+{
+    -ms-flex: 75%; 
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 
+{
+    padding: 0 16px;
+}
+
+.container 
+{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] 
+{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label 
+{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container
+ {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn 
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover 
+{
+    background-color: #45a049;
+}
+
+span.price 
+{
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
