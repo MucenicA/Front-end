@@ -1,13 +1,37 @@
-
 @media screen and (min-width: 601px) {
     .first-txt, .second-txt {
         position: absolute;
         top: 3em;
         left: 10em;
-       
-
     }
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+    .sizeText {
+        font-size: 14px;
+    }
+}
+
+  @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .sizeText {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+#carouselExampleIndicators{
+    margin-left:30%;
+    width:35%;
+    height:20%;
+}
 
 
 .paragraph
@@ -19,6 +43,7 @@
 
 .julia
 {
+    
     font-family: cursive;
     float:right;
     padding:5px;
@@ -38,7 +63,6 @@ div iframe
     margin-left: auto;
     margin-right: auto;
     width:100%;
-    /* box-shadow:5px 5px 5px 5px; */
     border:1px solid black;
   
 
@@ -55,7 +79,7 @@ div iframe
 .first-txt 
 {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 5%;
     font-family: cursive;
 }
@@ -63,14 +87,15 @@ div iframe
 .second-txt 
 {
     position: absolute;
-    bottom: 60%;
+    top:40%;
     left: 5%;
     font-family: cursive;
 }
 
 .meal
 {
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
     position:absolute;
     left: 21%;
     color:firebrick;
@@ -209,18 +234,6 @@ span.price
     color: grey;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
+h4{
+    margin-left:27%;
 }
-
-
-
-
-
-
